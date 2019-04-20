@@ -4,13 +4,12 @@ import BufSink
 print("MyClient Class")
 
 class MyClient(discord.Client):
-    
-    
+
     def __init__(self):
         super().__init__()
         self.target_channel = None
         self.post_thread = None
-        self.buffer = BufSink()
+        self.buffer = BufSink.BufSink()
 
 
     # post some sanity messages on start-up
