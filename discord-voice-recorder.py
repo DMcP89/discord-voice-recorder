@@ -1,7 +1,7 @@
 import discord
 import asyncio
 import MyClient
-import speech_recognition as sr
+
 from threading import Thread
 
 print("Discord.py Voice Recorder POC")
